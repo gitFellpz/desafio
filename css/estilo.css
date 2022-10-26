@@ -1,0 +1,58 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e0e9ee;
+    
+}
+
+main{
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo{
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 15px;
+
+    
+}
+.conteudo img{
+    width: 250px;
+    border-radius: 15px;
+}
+.conteudo .boxtxt{
+    padding: 15px;
+}
+.conteudo .boxtxt p{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    
+}
+.conteudo p:nth-child(1) {
+    font-weight: 700;
+
+}
+.conteudo p:nth-child(2){
+    font-weight: 400;
+    margin-top: 10px;
+
+
+}
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
